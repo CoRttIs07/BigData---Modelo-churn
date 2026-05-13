@@ -1,7 +1,7 @@
 # BigData - Modelo Churn
 
 Proyecto de Big Data enfocado en la predicción de retiro de asociados
-de una cooperativa financiera mediante técnicas de Machine Learning.
+de una cooperativa financiera mediante técnicas de bigdata y  Machine Learning.
 
 ## Objetivo
 
