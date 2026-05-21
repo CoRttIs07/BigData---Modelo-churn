@@ -1,6 +1,6 @@
-# 🎯 BigData - Modelo de Predicción de Churn
+#  BigData - Modelo de Predicción de Churn
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Proyecto de Big Data para predecir el riesgo de retiro (churn) de asociados en una cooperativa financiera, utilizando **arquitectura Medallion (Bronze-Silver-Gold)** en Databricks con PySpark y Delta Lake.
 
@@ -8,9 +8,9 @@ El proyecto implementa un **pipeline end-to-end** que procesa datos de múltiple
 
 ---
 
-## 🏗️ Arquitectura Medallion
+##  Arquitectura Medallion
 
-### 🥉 Bronze Layer - Ingesta Cruda
+###  Bronze Layer - Ingesta Cruda
 **Propósito**: Ingesta de datos crudos desde archivos CSV sin transformaciones
 
 **Tablas creadas** (5):
