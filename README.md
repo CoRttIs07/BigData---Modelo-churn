@@ -136,18 +136,6 @@ El proyecto implementa un **pipeline end-to-end** que procesa datos de múltiple
 - **20% solicitó retiro** → Señal fuerte de churn inmediato
 - **Solo 0.9% engagement alto** → Gran oportunidad de mejora en experiencia del cliente
 
-##  Próximos Pasos Recomendados
-
-
-###  Dashboard de Monitoreo (Lakeview)
-Crear dashboard con:
-- Distribución de riesgo de churn por segmento
-- KPIs: % Alto Riesgo, Engagement Score promedio
-- Tendencias temporales (evolución mensual)
-- Top 20 clientes en riesgo
-- Heatmap de factores de riesgo
-
-
 ## Autores
 
 **Rafael** - rafael7cor7@gmail.com
