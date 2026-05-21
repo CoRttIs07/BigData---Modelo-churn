@@ -75,7 +75,7 @@ El proyecto implementa un **pipeline end-to-end** que procesa datos de múltiple
   * Uso de canales (25 pts)
 - `segmento_engagement`: Alto / Medio / Bajo / Muy_Bajo
 
-### 7. Churn Risk Score - 2 features (🎯 Target Proxy)
+### 7. Churn Risk Score - 2 features
 - **`churn_risk_score`** (0-100): Score de riesgo de churn
 - **`churn_risk_segment`**: Alto_Riesgo / Riesgo_Moderado / Riesgo_Bajo / Sin_Riesgo
 
@@ -108,29 +108,8 @@ El proyecto implementa un **pipeline end-to-end** que procesa datos de múltiple
   - Silver: `[Nit]`
   - Gold: `[cliente_id]`
 
-**Estado**: ✅ Ejecutado exitosamente
-
 ### 2. 01_bronze_ingestion (ID: 1878657110422116)
 **Ingesta de CSVs a tablas Bronze en Delta Lake**
-
-##  Problemas Técnicos Resueltos
-
-### Problema 1: ZORDER en columna de partición
-**Error**: `DELTA_ZORDERING_ON_PARTITION_COLUMN`
-- **Causa**: ZORDER intentaba ordenar por `load_date` (columna de partición)
-- **Solución**: Removido `load_date`, ZORDER solo por `[Nit]` en Bronze
-
-### Problema 2: ZORDER en columna sin estadísticas
-**Error**: `DELTA_ZORDERING_ON_COLUMN_WITHOUT_STATS`
-- **Causa**: `churn_risk_score` es calculado, Delta no colecta stats automáticamente
-- **Solución**: ZORDER solo por `cliente_id` en Gold
-
-### Problema 3: Importaciones faltantes
-**Errores**: `NameError: name 'col' is not defined`, `name 'desc' is not defined`
-- **Causa**: Funciones PySpark usadas sin importar en múltiples celdas
-- **Solución**: Agregadas importaciones necesarias en cada celda que las requiere
-
----
 
 ## Resultados del Análisis Exploratorio
 
