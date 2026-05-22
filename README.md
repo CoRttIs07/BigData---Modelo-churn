@@ -136,20 +136,6 @@ El proyecto implementa un **pipeline end-to-end** que procesa datos de múltiple
 - **20% solicitó retiro** → Señal fuerte de churn inmediato
 - **Solo 0.9% engagement alto** → Gran oportunidad de mejora en experiencia del cliente
 
-## Autores
-
-**Rafael** - rafael7cor7@gmail.com
-**Carolina** - carolina.jimenez3376@unaula.edu.co
-**Dulce** - dulcedanielavargas@hotmail.com
-
-
-## 📖 Referencias
-
-- [Databricks Medallion Architecture](https://docs.databricks.com/lakehouse/medallion.html)
-- [Delta Lake Documentation](https://docs.delta.io/)
-- [PySpark ML Guide](https://spark.apache.org/docs/latest/ml-guide.html)
-- [Unity Catalog Best Practices](https://docs.databricks.com/unity-catalog/best-practices.html)
-
 ** MODELO CHURN
 
 Para ver el codigo usado en el desarrollo del modelo enytrar al sigueinte enlace: [04_modelo_prediccion_churn.ipynb](https://github.com/user-attachments/files/28164411/04_modelo_prediccion_churn.ipynb)
@@ -174,7 +160,19 @@ Este script hace:
 
 En resumen, lo que se hizo fue comparar diferentes modelos que pudieran predecir de una manera mas precisa y con los resultados adecuados de acuerdo a las metricas que evaluan cada uno de los modelos.
 
+## Autores
 
+**Rafael** - rafael7cor7@gmail.com
+**Carolina** - carolina.jimenez3376@unaula.edu.co
+**Dulce** - dulcedanielavargas@hotmail.com
+
+
+## 📖 Referencias
+
+- [Databricks Medallion Architecture](https://docs.databricks.com/lakehouse/medallion.html)
+- [Delta Lake Documentation](https://docs.delta.io/)
+- [PySpark ML Guide](https://spark.apache.org/docs/latest/ml-guide.html)
+- [Unity Catalog Best Practices](https://docs.databricks.com/unity-catalog/best-practices.html)
 
 
 
