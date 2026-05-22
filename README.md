@@ -172,7 +172,7 @@ Este script hace:
 9. Evalúa sobre test original, sin balancear.
 10. Genera métricas clásicas, ranking, matrices, predicciones e importancia de variables.
 
-   
+En resumen, lo que se hizo fue comparar diferentes modelos que pudieran predecir de una manera mas precisa y con los resultados adecuados de acuerdo a las metricas que evaluan cada uno de los modelos.
 
 
 
