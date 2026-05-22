@@ -150,5 +150,31 @@ El proyecto implementa un **pipeline end-to-end** que procesa datos de múltiple
 - [PySpark ML Guide](https://spark.apache.org/docs/latest/ml-guide.html)
 - [Unity Catalog Best Practices](https://docs.databricks.com/unity-catalog/best-practices.html)
 
----
+** MODELO CHURN
+
+Para ver el codigo usado en el desarrollo del modelo enytrar al sigueinte enlace: [04_modelo_prediccion_churn.ipynb](https://github.com/user-attachments/files/28164411/04_modelo_prediccion_churn.ipynb)
+
+Este script hace:
+
+1. Carga el dataset Gold exportado a CSV.
+2. Crea la variable objetivo churn.
+3. Separa train/test antes de cualquier balanceo.
+4. Audita fuga de información usando SOLO train.
+5. Detecta fuga en:
+   - nombres sospechosos,
+   - variables directas,
+   - variables numéricas con AUC univariado alto,
+   - variables categóricas con tasas de churn casi perfectas,
+   - variables numéricas de baja cardinalidad tratadas como categóricas.
+6. Hace balanceo de clases SOLO en train.
+7. Hace una poda iterativa de variables que siguen generando AUC sospechosamente alto.
+8. Entrena varios modelos.
+9. Evalúa sobre test original, sin balancear.
+10. Genera métricas clásicas, ranking, matrices, predicciones e importancia de variables.
+
+   
+
+
+
+
 
