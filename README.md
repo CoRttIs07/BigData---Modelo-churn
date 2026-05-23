@@ -1,3 +1,6 @@
+Dashboard del modelo Churn - DataBricks
+https://dbc-9bfeaa20-a128.cloud.databricks.com/dashboardsv3/01f1556773bc175ab4419cd42ea42ae0/published?o=7474658389438863
+
 #  BigData - Modelo de Predicción de Churn
 
 ##  Descripción del Proyecto
