@@ -167,5 +167,7 @@ En resumen, lo que se hizo fue comparar diferentes modelos que pudieran predecir
 ## Autores
 
 **Rafael** - rafael7cor7@gmail.com
+
 **Carolina** - carolina.jimenez3376@unaula.edu.co
+
 **Dulce** - dulcedanielavargas@hotmail.com
