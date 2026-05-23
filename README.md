@@ -169,14 +169,3 @@ En resumen, lo que se hizo fue comparar diferentes modelos que pudieran predecir
 **Rafael** - rafael7cor7@gmail.com
 **Carolina** - carolina.jimenez3376@unaula.edu.co
 **Dulce** - dulcedanielavargas@hotmail.com
-
-
-## 📖 Referencias
-
-- [Databricks Medallion Architecture](https://docs.databricks.com/lakehouse/medallion.html)
-- [Delta Lake Documentation](https://docs.delta.io/)
-- [PySpark ML Guide](https://spark.apache.org/docs/latest/ml-guide.html)
-- [Unity Catalog Best Practices](https://docs.databricks.com/unity-catalog/best-practices.html)
-
-
-
